@@ -1,0 +1,8 @@
+Final State Acceptability
+In final state acceptability, a PDA accepts a string when, after reading the entire string, the PDA is in a final state. From the starting state, we can make moves that end up in a final state with any stack values. The stack values are irrelevant as long as we end up in a final state.
+
+For a PDA (Q, ∑, S, δ, q0, I, F), the language accepted by the set of final states F is −
+
+L(PDA) = {w | (q0, w, I) ⊢* (q, ε, x), q ∈ F}
+
+for any input stack string x.
